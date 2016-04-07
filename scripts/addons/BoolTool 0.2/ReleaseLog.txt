@@ -1,0 +1,62 @@
+Bool Tool
+    Copyright (C) 2014  Vitor Balbio
+
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+Release Log:
+
+ver 0.2
+    NEW : UI Redesign
+        - It's designed to scale for more features that are comming so now we have tree panels:
+            - Operators show the operators that you can use, they are global and can be applyied for all selected objects at once.
+            - Properties show the propertie of the active object and its specific funcions following it type (Canvas, Brush or Both), they function are applyied to this active object
+            - If the object is a Canvas it will show a Brush Viewer Pannel to handle the Canvas Brushes anexed and others Modifiers Stack order
+ 
+    NEW : Direct Boolean Operations
+        - This don't make Brushes, instead it apply the boolean operators directly between the objects
+        - You can use the Hotkeys CTRL + SHIFT + Plus/Minus/Asterix of Numpad to apply the direct operators
+    
+    NEW : Draw Poly Brush
+        - Poly brush is a tool to Draw Masks in 3Dview and apply it as a Brush to the Object, it's faster than make a cube, edit edges and so on just to make a simple form that will be used as a brush
+        
+    NEW : Toogle Enable
+        - Now you can Enable/Disable a Brush in the Brush Viewer or in the Brush Properties
+        
+    NEW : AutoConvert Curve
+        - If the object is a curve it autoconvert to Mesh, this way you can use Curve Objects with Bevel as a Brush (Warning, when you turn it a Brush it will be converted to a a Mesh and will lose the Curve properties)
+        
+    NEW : Experimental Fast Transform
+        - Fast transform rewrite te G/S/R Hotkeys to a custom one that can handle Brush objects changing it visibility and apply it on the canvas only in the final of the
+        manipulation, this way we can get a fast transformation using High Poly Brushes. It's a experimental Feature and only works good with only one brush on it ( There's some lags when you have a high poly brush applyied and try to handle others )
+    
+    UPDATE : Redesign Remove All and Remove Brush
+        - Now you can remove only a brush or remove all brushes
+        - "Remove Brush" now is "active object" oriented so you can't remove all selected Brushes at once. It's slower but more consistent and intuitve in the UI
+        - If you want remove all use the Canvas funcion " Remove All"
+            
+    UPDATE : Redesign Apply All and Apply Brush
+        - Now you have separated functions to apply only a brush or all modifiers
+        - "Apply Brush" is "active object" oriented so you can't apply all selected Brushes at once. It's slower but more consistent and intuitve in the the UI
+        
+    UPDATE : Brush Viewer
+        - To Select a Brush in the Brush Viwer, just click on it name or icon
+    
+    INTERNAL : Clean up all the Try/Catch stuff for use functions
+    INTERNAL : Polling the operations to work only with "Mesh" and "Curve" Objects
+
+ver 0.1
+- Start Implementation Basic Funcions
+- 3 boolean functions (Union, Subtract, Intersection)
+- Hotkey for they (CTRL PLUs, CTRL MINUS, CTRL ASTERIX) in Object Mode
+- Basic UI and Tab
