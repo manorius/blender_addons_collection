@@ -25,3 +25,5 @@ If you don't see the add-on, make sure that you have entered the right location 
 * **[Three.js Blender Export](https://github.com/mrdoob/three.js/tree/master/utils/exporters/blender)**
 
 * **[Asset Flinger](https://github.com/BlenderAid/Asset-Flinger)**
+
+* **[Measureit](https://github.com/Antonioya/blender/tree/master/measureit)**
