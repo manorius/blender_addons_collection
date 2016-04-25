@@ -25,3 +25,15 @@ If you don't see the add-on, make sure that you have entered the right location 
 * **[Three.js Blender Export](https://github.com/mrdoob/three.js/tree/master/utils/exporters/blender)**
 
 * **[Asset Flinger](https://github.com/BlenderAid/Asset-Flinger)**
+
+* **[Snap Utilities](https://github.com/Mano-Wii/Addon-Snap-Utilities-Line)**
+
+* **[MultiEdit](https://github.com/antoni4040/MultiEdit-Addon)**
+
+* **[Export Paper model](https://github.com/addam/Export-Paper-Model-from-Blender)**
+
+* **[Non destructive modelling - snapshot Meshes](http://blenderartists.org/forum/showthread.php?364507-Addon-Non-destructive-modelling-snapshot-Meshes)**
+
+* **[Wazou Pie Menus](https://github.com/pitiwazou/Scripts-Blender/blob/Older-Scripts/Wazou_Pie_Menus)**
+
+* **[Make Planar Faces](http://wahooney.net/new-addon-make-faces-planar/)**
