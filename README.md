@@ -37,3 +37,5 @@ If you don't see the add-on, make sure that you have entered the right location 
 * **[Wazou Pie Menus](https://github.com/pitiwazou/Scripts-Blender/blob/Older-Scripts/Wazou_Pie_Menus)**
 
 * **[Make Planar Faces](http://wahooney.net/new-addon-make-faces-planar/)**
+
+* **[Measureit](https://github.com/Antonioya/blender/tree/master/measureit)**
