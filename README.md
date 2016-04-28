@@ -39,3 +39,7 @@ If you don't see the add-on, make sure that you have entered the right location 
 * **[Make Planar Faces](http://wahooney.net/new-addon-make-faces-planar/)**
 
 * **[Measureit](https://github.com/Antonioya/blender/tree/master/measureit)**
+
+* **[Rename Objects](https://www.youtube.com/watch?v=ztnfo6eKtL8)
+
+* **[Name Panel](http://blenderartists.org/forum/showthread.php?272086-Addon-Item-Panel-amp-Batch-Naming)
