@@ -1,4 +1,4 @@
-# A collection of Blender add-ons
+# A collection of Blender add-ons 
 
 ### INSTALLING THE ADD-ons
 In order to install them, open Blender and go to  
