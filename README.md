@@ -43,3 +43,5 @@ If you don't see the add-on, make sure that you have entered the right location 
 * **[Rename Objects](https://www.youtube.com/watch?v=ztnfo6eKtL8)
 
 * **[Name Panel](http://blenderartists.org/forum/showthread.php?272086-Addon-Item-Panel-amp-Batch-Naming)
+
+* **[Kaleidoscope](http://www.blenderskool.cf/kaleidoscope/)
